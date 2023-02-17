@@ -1,13 +1,13 @@
 import { useState } from "react";
+import Rando from "../Rando/Rando";
 
 const Game = (props) => {
 
-  const [score, setScore] = useState(0)
   const [gameOver, setGamerOver] = useState(false)
 
   return ( 
     <>
-      <h1>Your score is: {score}</h1>
+      <h1>Your score is: <Rando maxNum={10}/></h1>
     </>
   );
 }
