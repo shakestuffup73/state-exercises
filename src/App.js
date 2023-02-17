@@ -1,5 +1,5 @@
 import './App.css';
-import BrokenClick from './BrokenClick/BrokenClick';
+import Clicker from './Clicker/Clicker';
 // import Game from './Game/Game';
 // import Button from './Button/Button';
 // import BrokenClick from './BrokenClick/BrokenClick';
@@ -8,7 +8,7 @@ import BrokenClick from './BrokenClick/BrokenClick';
 function App() {
   return (
     <div className="App">
-      <BrokenClick />
+      <Clicker />
     </div>
   );
 }
